@@ -18,7 +18,7 @@ const Form = () => {
     setUser({ ...user, [propiedad]: e.target.value });
   };
 
-  console.log(user);
+ // console.log(user);
 
   const validateName = (str) => {
     const space = str.trim();
